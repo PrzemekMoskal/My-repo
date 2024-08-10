@@ -1,0 +1,14 @@
+names:
+- mask_worn_incorrectly
+- with_mask
+- without_mask
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: face_mask_detection_yolov7-ltgx2
+  url: https://universe.roboflow.com/saleena-das-6ogqi/face_mask_detection_yolov7-ltgx2/dataset/1
+  version: 1
+  workspace: saleena-das-6ogqi
+test: ../test/images
+train: Face_Mask_Detection_YOLOv7-1/train/images
+val: Face_Mask_Detection_YOLOv7-1/valid/images
